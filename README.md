@@ -17,7 +17,7 @@ Inside library are also functions needed handling an external flash memory in <b
 See youtube video to know advantages of this approach.<br><br><br><br>
 
 ### video Support
-Here you can find video documentation about these topics
+Here you can find videos documentation about these topics
 
 |||
 |---|---|
