@@ -1,11 +1,17 @@
-/*
- * z_flash_W25QXXX.h
- *
- * ver 1.0
- *
- *  Created on: May 16, 2023
- *      Author: mauro
- */
+/*********************************************
+ * @file Z_FLASH_W25QXXX.h
+ * @author mauro
+ * @date: 01 august 2023
+ * @version V.1.0.0
+ * 
+ *********************************************
+ * this version of library uses just polling 
+ * mode transmission
+ * this version of library uses standard SPI
+ *********************************************
+ * configure below STEP1 and STEP4.
+ * Do not change STEP2 and STEP3 in this version
+ *********************************************/
 
 #ifndef INC_Z_FLASH_W25QXXX_H_
 #define INC_Z_FLASH_W25QXXX_H_

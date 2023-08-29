@@ -1,7 +1,13 @@
 /*********************************************
- * Configuring External loader setup
- * the first and the third field in the
- * struct hereafter. Setup also Loader_Src.c
+ * @file Dev_Inf.c
+ * @brief modified by Mauro linking W25Qxxx library
+ * @date: 01 august 2023
+ * @version V.1.0.0
+ * 
+ *********************************************
+ * Creating an new External loader you have to 
+ * configure the first and the third field in 
+ * below struct. Setup also Loader_Src.c
  *********************************************/
 
 #include "main.h"

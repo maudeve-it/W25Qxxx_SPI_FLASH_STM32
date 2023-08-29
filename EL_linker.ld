@@ -1,13 +1,14 @@
 /*
 *****************************************************************************
 **  File        : linker.ld
+** 				  modified by Mauro linking W25Qxxx library for an EL
+**  Date		: 01 august 2023
+**  Version 	: V.1.0.0
+** 
 **
-**                Set heap size, stack size and stack location according
-**                to application requirements.
+**                Just change the ram length
+**                not tested on H7
 **
-**                Set memory bank area and size if external memory is used.
-**
-**  Target      : STMicroelectronics STM32
 **
 *****************************************************************************
 */

@@ -1,6 +1,12 @@
 /*********************************************
- * Configuring External loader follow
- * step 1 to 3 hereafter and set the
+ * @file Dev_Inf.c
+ * @brief modified by Mauro linking W25Qxxx library
+ * @date: 01 august 2023
+ * @version V.1.0.0
+ * 
+ *********************************************
+ * Creating an new External loader you have to 
+ * follow the below step 1 to 3 and set the
  * first field in the struct of Dev_Inf.c
  *********************************************/
 

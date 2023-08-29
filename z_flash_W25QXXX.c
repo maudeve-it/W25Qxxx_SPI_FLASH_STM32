@@ -1,12 +1,16 @@
-/*
- * Z_FLASH_W25QXXX.c
- *
- * ver 1.0
- *
- *  Created on: May 16, 2023
- *      Author: mauro
- *
- */
+/*********************************************
+ * @file Z_FLASH_W25QXXX.c
+ * @author mauro
+ * @date: 01 august 2023
+ * @version V.1.0.0
+ * 
+ *********************************************
+ * this version of library uses just polling 
+ * mode transmission
+ * this version of library uses standard SPI
+ *********************************************
+ * it needs Z_FLASH_W25QXXX.h configuration
+ *********************************************/
 
 
 #include "main.h"
@@ -17,15 +21,6 @@
 extern SPI_HandleTypeDef FLASH_SPI_PORT;
 
 
-
-/* this version of library uses just polling mode transmission
-void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi) {
-	if (hspi->Instance==FLASH_SPI) {
-		HAL_GPIO_WritePin(FLASH_CS_GPIO_Port, FLASH_CS_Pin, GPIO_PIN_SET);	//unselect
-
-	}
-}
-*/
 
 
 /******************************************

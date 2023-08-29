@@ -1,3 +1,13 @@
+/*********************************************
+ * @file Dev_Inf.h
+ * @brief modified by Mauro linking W25Qxxx library
+ * @date: 01 august 2023
+ * @version V.1.0.0
+ * 
+ *********************************************
+ * you shouldn't need to change anything here 
+ *********************************************/
+
 #define 	MCU_FLASH 	1
 #define 	NAND_FLASH  2
 #define 	NOR_FLASH   3
