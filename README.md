@@ -5,9 +5,8 @@ _**<br>Below the English text you'll find the Italian version</i>**_
 <br>
 
 # Winbond W25QXXXX SPI FLASH memories with STM32: <br>
-## on STM32CubeIDE,<br> 
-## creating External Loader for STM32CubeProgrammer,<br>
-## on TouchGFX<br>
+## including support functions for External Loaders<br>
+## and for the flash integration on TouchGFX projects<br>
 <br><br>
 In this GitHub page, you'll find a library for STM32 (HAL) handling <b>Winbond SPI Flash memories (W25Qxxxx)</b>.<br>
 Library includes functions needed to generate <b>External Loaders</b> for STM32CubeProgrammer and STM32CubeIDE.<br>
@@ -283,9 +282,8 @@ Opening STM32CubeProgrammer program you can select the new External Loader to ac
 <br>
 
 # Memorie SPI Flash Winbond W25QXXXX con STM32: <br>
-## su STM32CubeIDE,<br>
-## creando External Loader per STM32CubeProgrammer,<br>
-## su TouchGFX<br>
+## incluse le funzioni per creare External Loader,<br>
+## e per integrare la flash in progetti TouchGFX<br>
 <br><br>
 In questa pagina GitHub trovi una libreria di funzioni per STM32 (HAL) per la gestione di <b>memorie SPI Flash Winbond (W25Qxxxx)</b>.<br>
 La libreria include anche le funzioni richieste per generare <b>External Loader</b> per STM32CubeProgrammer o per STM32CubeIDE.<br>
