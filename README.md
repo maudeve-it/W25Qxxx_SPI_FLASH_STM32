@@ -17,12 +17,12 @@ Inside library are also functions needed handling an external flash memory in <b
 See youtube video to know advantages of this approach.<br><br><br><br>
 
 ### video Support
-Here you can find videos documentation about these topics
+Here you can find videos documentation about these topics:
 
 |||
 |---|---|
-|z|z|
-|||
+|Part one: "how to" use library and develop an EL|[z](https://youtu.be/KlG2doCkREM)|
+|Part two: using EL in CubeIDE and in TouchGFX projects||
 
 
 ### References
@@ -30,6 +30,8 @@ sofware, this page and above videos, were developed upon this documentation:
 
 |||
 |---|---|
+|Winbond W25Qxxx web page|https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash|
+|Jedec SFDP standard (requires registration)|https://www.jedec.org/document_search/field_doc_type/148?search_api_views_fulltext=JESD216|
 |STM Mooc - External QSPI loader how to|https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-moocs/external_QSPI_loader.html|
 |STM repository of external flash loaders|https://github.com/STMicroelectronics/stm32-external-loader|
 |STM32CubeProgrammer documentation|https://www.st.com/resource/en/user_manual/um2237-stm32cubeprogrammer-software-description-stmicroelectronics.pdf|
@@ -296,17 +298,20 @@ Vedi questo video youtube per conoscere i vantaggi di questo approccio.<br><br><
 
 ### Supporto video
 Qui puoi trovare video relativi ai temi trattati in questa pagina
+
 |||
 |---|---|
-|z|z|
-|||
+|Part one: "how to" use library and develop an EL|[z](https://youtu.be/KlG2doCkREM)|
+|Part two: using EL in CubeIDE and in TouchGFX projects||
 
 
 ### Referimenti
-Il software, questa pagina ed i video sopra sono stati sviluppati sulla base di queste informazioni:
+Il software, questa pagina ed i video sopra sono stati sviluppati sulla base di questa documentazione:
 
 |||
 |---|---|
+|Winbond W25Qxxx web page|https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash|
+|Jedec SFDP standard (requires registration)|https://www.jedec.org/document_search/field_doc_type/148?search_api_views_fulltext=JESD216|
 |STM Mooc - External QSPI loader how to|https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-moocs/external_QSPI_loader.html|
 |STM repository of external flash loaders|https://github.com/STMicroelectronics/stm32-external-loader|
 |STM32CubeProgrammer documentation|https://www.st.com/resource/en/user_manual/um2237-stm32cubeprogrammer-software-description-stmicroelectronics.pdf|
