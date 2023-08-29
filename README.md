@@ -14,14 +14,14 @@ Inside library are also functions needed handling an external flash memory in <b
 <br>Current version of library handles SPI communication via:
 -	<b>standard SPI</b>: W25Q handle QuadSPI. This library communicate using Standard SPI<br>
 -	<b>polling mode</b>: no "interrupt mode" o "DMA mode"<br>
-See youtube video to know advantages of this approach.<br><br><br><br>
+See youtube videos to know advantages of this approach.<br><br><br><br>
 
 ### video Support
-Here you can find videos documentation about these topics:
+Here you can find video documentation about these topics:
 
 |||
 |---|---|
-|Part one: "how to" use library and develop an EL|[z](https://youtu.be/KlG2doCkREM)|
+|Part one: "how to" use library and develop an EL|https://youtu.be/KlG2doCkREM|
 |Part two: using EL in CubeIDE and in TouchGFX projects||
 
 
