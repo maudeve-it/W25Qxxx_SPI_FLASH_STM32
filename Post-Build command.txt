@@ -1,0 +1,1 @@
+cmd.exe /C copy /Y "${BuildArtifactFileBaseName}.elf" "..\${BuildArtifactFileBaseName}.stldr"

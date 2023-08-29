@@ -1,0 +1,29 @@
+
+
+
+  SPI_FLASH (r)    : ORIGIN = 0x90000000,  LENGTH = 1M 
+
+
+
+
+
+  ExtFlashSection :
+  {
+	*(ExtFlashSection ExtFlashSection.*)
+	*(-gnu-linkonce.r.*)
+    . = ALIGN(0x100);
+  } >SPI_FLASH
+
+  FontFlashSection :
+  {
+	*(FontFlashSection FontFlashSection.*)
+	*(-gnu-linkonce.r.*)
+    . = ALIGN(0x100);
+  } >SPI_FLASH
+
+  TextFlashSection :
+  {
+	*(TextFlashSection TextFlashSection.*)
+	*(-gnu-linkonce.r.*)
+    . = ALIGN(0x100);
+  } >SPI_FLASH
