@@ -4,11 +4,11 @@ _**<br>Below the English text you'll find the Italian version</i>**_
 <br>
 <br>
 
-# Winbond W25QXXXX SPI FLASH memories with STM32: <br>
+# Winbond W25QXXX SPI FLASH memories with STM32: <br>
 ## including support functions for External Loaders<br>
 ## and for the flash integration on TouchGFX projects<br>
 <br><br>
-In this GitHub page, you'll find a library for STM32 (HAL) handling <b>Winbond SPI Flash memories (W25Qxxxx)</b>.<br>
+In this GitHub page, you'll find a library for STM32 (HAL) handling <b>Winbond SPI Flash memories (W25Qxxx)</b>.<br>
 Library includes functions needed to generate <b>External Loaders</b> for STM32CubeProgrammer and STM32CubeIDE.<br>
 Inside library are also functions needed handling an external flash memory in <b>TouchGFX</b> projects, storing font and images, using a direct transfer flash->display (without needing a cache in RAM).<br>
 <br>Current version of library handles SPI communication via:
@@ -41,8 +41,8 @@ sofware, this page and above videos, were developed upon this documentation:
 
 
 
-# 1) Handling the W25QXXXX Winbond SPI Flash chip library
-Here youl find documentation about haw to handle a flash memory chip connected to a uC SPI port
+# 1) Handling the W25QXXX Winbond SPI Flash chip library
+Here to create a project handling flash memory through this library:
 <ul>
 <li><b>(1)	in CubeMX</b>:<br>
 creating your STM32 project assign an SPI port to the communication with the Flash memory.<br>
