@@ -28,6 +28,7 @@ Here you can find video documentation about these topics:
 ### References
 sofware, this page and above videos, were developed upon this documentation:
 
+|||
 |---|---|
 |Winbond W25Qxxx web page|https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash|
 |Jedec SFDP standard (requires registration)|https://www.jedec.org/document_search/field_doc_type/148?search_api_views_fulltext=JESD216|
