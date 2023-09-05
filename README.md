@@ -28,7 +28,6 @@ Here you can find video documentation about these topics:
 ### References
 sofware, this page and above videos, were developed upon this documentation:
 
-|||
 |---|---|
 |Winbond W25Qxxx web page|https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash|
 |Jedec SFDP standard (requires registration)|https://www.jedec.org/document_search/field_doc_type/148?search_api_views_fulltext=JESD216|
@@ -37,6 +36,7 @@ sofware, this page and above videos, were developed upon this documentation:
 |STM32CubeProgrammer documentation|https://www.st.com/resource/en/user_manual/um2237-stm32cubeprogrammer-software-description-stmicroelectronics.pdf|
 |STM32 Graphics: external QSPI flash in TouchGFX|https://youtu.be/RMgVo_uCTbw|
 |TouchGFX: Using Serial Flash for images and fonts|https://support.touchgfx.com/docs/development/scenarios/using-serial-flash|
+|A "How to" manual from ST about external loaders creation|https://community.st.com/t5/stm32-mcus/how-to-add-your-spi-flash-into-the-stm32cubeprogrammer-s/ta-p/49392|
 
 
 
