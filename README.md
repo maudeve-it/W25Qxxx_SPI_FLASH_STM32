@@ -42,7 +42,7 @@ sofware, this page and above videos, were developed upon this documentation:
 
 
 # 1) Handling the W25QXXX Winbond SPI Flash chip library
-Here to create a project handling flash memory through this library:
+Here is information to create a project handling flash memory through this library:
 <ul>
 <li><b>(1)	in CubeMX</b>:<br>
 creating your STM32 project assign an SPI port to the communication with the Flash memory.<br>
