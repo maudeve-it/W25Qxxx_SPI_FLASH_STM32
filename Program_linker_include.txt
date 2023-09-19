@@ -21,9 +21,3 @@
     . = ALIGN(0x100);
   } >SPI_FLASH
 
-  TextFlashSection :
-  {
-	*(TextFlashSection TextFlashSection.*)
-	*(-gnu-linkonce.r.*)
-    . = ALIGN(0x100);
-  } >SPI_FLASH
