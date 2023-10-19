@@ -32,7 +32,7 @@ if prototyping with a flash on a breakout board, in the External Loader project 
 <br>
 <li> If on your board, you have available a led connected to a uC pin (GPIO_Output): you can use it in the External Loader. Useful for troubleshooting.<br>
 give the uC led pin the name: <b>LED</b>.<br>
-<li> in <i>"Project Manager"->"Code Generator"</i>, mark <b><i>"Generate peripheral initialization as a pair of '.c/.h' files per peripheral"</i></b> to have peripheral initialing files separated by <i>main.c</i>
+<li> in <i>"Project Manager"->"Code Generator"</i>, mark <b><i>"Generate peripheral initialization as a pair of '.c/.h' files per peripheral"</i></b> to have peripheral initializing files separated by <i>main.c</i>
 <li> generate "c" code.
 </ul>
 <li><b>in CubeIDE</b>:
