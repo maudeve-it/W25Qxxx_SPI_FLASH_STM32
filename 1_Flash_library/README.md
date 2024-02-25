@@ -117,10 +117,10 @@ Each function has its own description and help, inside <b>z_flash_W25QXXX.c</b> 
 
 This guide is divided in 4 chapters following the above list.<br><br>
 
-- [handling an external W25Q flash with this library](./1_Flash_library)
-- [creating and using an External Loader for the SPI flash](./2_ExternalLoader)
-- [mapping an external SPI flash on CubeIDE projects](./3_CubeIDE_mapping)
-- [using an external SPI flash in TouchGFX projects](./4_TouchGFX_mapping)
+- [handling an external W25Q flash with this library](../1_Flash_library)
+- [creating and using an External Loader for the SPI flash](../2_ExternalLoader)
+- [mapping an external SPI flash on CubeIDE projects](../3_CubeIDE_mapping)
+- [using an external SPI flash in TouchGFX projects](../4_TouchGFX_mapping)
 
 <br>
 
