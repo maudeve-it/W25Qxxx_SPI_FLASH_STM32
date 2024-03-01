@@ -155,15 +155,15 @@ SECTIONS
 <br>
 <ul>
 From now on, when you are in <b>TouchGFX Designer</b>, you can move single pictures to the external flash assigning them to the <b>ExtFlashSection</b>:<br><br>
-<img src="./designer1.png" width="840" height="429">
+<img src="./designer1.png">
 <br>
 <br>If you want use external flash as the default storage for pictures set it into the <b>Default Image Configuration</b>:<br>
 <br>
-<img src="./designer2.png" width="742" height="630">
+<img src="./designer2.png">
 </ul>
 If you move fonts over the external flash memory, you <b>ALWAYS MUST</b> set fonts as "unmapped" in <b>TouchGFX Designer</b> configuration:<br>
 <br>
-<img src="./Senzanome.png" width="980" height="526">
+<img src="./Senzanome.png">
 <br>
 <br>
 
@@ -367,17 +367,17 @@ SECTIONS
 <br>
 <ul>
 A questo punto, in <b>TouchGFX Designer</b>, e' possibile spostare singole immagini verso la memoria flash esterna assegnandole a <b>ExtFlashSection</b>:<br><br>
-<img src="./designer1.png" width="840" height="429">
+<img src="./designer1.png">
 <br>
 <br>Volendo usare la memoria flash esterna come supporto "di default" per archiviare le immagini, impostare il suo valore in <b>Default Image Configuration</b>:<br>
 <br>
 <br>
-<img src="./designer2.png" width="742" height="630">
+<img src="./designer2.png">
 <br>
 <br>
 Se si spostano i font sulla memoria flash esterna <b>OCCORRE SEMPRE</b> impostare i font come "unmapped" in configurazione di <b>TouchGFX Designer</b>:<br>
 <br>
-<img src="./Senzanome.png" width="980" height="526">
+<img src="./Senzanome.png">
 <br>
 </ul>
 
