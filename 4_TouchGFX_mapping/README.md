@@ -163,7 +163,7 @@ From now on, when you are in <b>TouchGFX Designer</b>, you can move single pictu
 </ul>
 If you move fonts over the external flash memory, you <b>ALWAYS MUST</b> set fonts as "unmapped" in <b>TouchGFX Designer</b> configuration:<br>
 <br>
-<img src="https://github.com/maudeve-it/W25Q-SPI-FLASH-EEPROM-STM32/blob/main/Senzanome.png" width="980" height="526">
+<img src="./Senzanome.png" width="980" height="526">
 <br>
 <br>
 
@@ -377,7 +377,7 @@ A questo punto, in <b>TouchGFX Designer</b>, e' possibile spostare singole immag
 <br>
 Se si spostano i font sulla memoria flash esterna <b>OCCORRE SEMPRE</b> impostare i font come "unmapped" in configurazione di <b>TouchGFX Designer</b>:<br>
 <br>
-<img src="https://github.com/maudeve-it/W25Q-SPI-FLASH-EEPROM-STM32/blob/main/Senzanome.png" width="980" height="526">
+<img src="./Senzanome.png" width="980" height="526">
 <br>
 </ul>
 
