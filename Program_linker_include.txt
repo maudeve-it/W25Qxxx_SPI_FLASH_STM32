@@ -21,3 +21,6 @@
     . = ALIGN(0x100);
   } >SPI_FLASH
 
+
+/* attributes for variables declaration */
+/* __attribute__((section("ExtFlashSection"))) __attribute__((aligned(4))) */
