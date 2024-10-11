@@ -28,7 +28,7 @@ etc.<br>
 <li> setup the <b>SPI port</b> and the <b>CS pin</b> for your flash memory. (see above details about SPI port configuration on CubeMX)<br>
 <br>
 <i><b>Warning:</b><br>
-if prototyping with a flash on a breakout board, in the External Loader project I recommend to setup an SPI port speed lower than 2Mbit/s</i><br>
+if prototyping with a flash on a breadboard, in the External Loader project I recommend to setup an SPI port speed lower than 2Mbit/s</i><br>
 <br>
 <li> If on your board, you have available a led connected to a uC pin (GPIO_Output): you can use it in the External Loader. Useful for troubleshooting.<br>
 give the uC led pin the name: <b>LED</b>.<br>
