@@ -38,13 +38,13 @@ give the uC led pin the name: <b>LED</b>.<br>
 <li><b>in CubeIDE</b>:
 <ul>
 <li>
-in <i><b>include</b></i> folder, copy files:
+in <i><b>Core/inc</b></i> folder, copy files:
 <ul>
 z_flash_W25QXXX.h<br>
 Dev_Inf.h<br>
 </ul>
 <li>
-in <i><b>src</b></i> folder, copy files:
+in <i><b>Core/src</b></i> folder, copy files:
 <ul>
 z_flash_W25QXXX.c<br>
 Dev_Inf.c<br>
