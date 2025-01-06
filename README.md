@@ -49,11 +49,12 @@ See youtube videos to know advantages of this approach.<br><br><br>
 ### Helping videos
 Here you can find video documentation about these topics:
 
-|||
-|---|---|
-|Part one: "how to" use library, "how to" develop an EL, "how to" install an EL into CubeProgrammer|https://youtu.be/KlG2doCkREM|
-|Part two: "how to" use the SPI flash in TouchGFX projects, "how to" install an EL into CubeIDE|https://youtu.be/PO_2ZE1NQF0|
-|Part three: "how to" map an external SPI flash memory in a CubeIDE project||
+||||
+|---|---|---|
+|Part one| "how to" use library, "how to" develop an EL, "how to" install an EL into CubeProgrammer|https://youtu.be/KlG2doCkREM|
+|<b>Part two</b>|<b> "how to" create a low-RAM-demanding EL (specific for this repository)</b>|https://youtu.be/zv0w_vhTTTo|
+|Part three| "how to" use the SPI flash in TouchGFX projects, "how to" install an EL into CubeIDE|https://youtu.be/PO_2ZE1NQF0|
+|Part four| "how to" map an external SPI flash memory in a CubeIDE project|https://youtu.be/K-7X8WKNu7c|
 <br>
 <br>
 
@@ -134,12 +135,12 @@ Vedi i video youtube sotto per conoscere i vantaggi di questo approccio.<br><br>
 ### Supporto video
 Qui puoi trovare video relativi ai temi trattati in questa pagina
 
-|||
-|---|---|
-|Prima parte: "how to" - come usare la libreria, come creare un EL, come installare un EL in Cubeprogrammer|[z](https://youtu.be/KlG2doCkREM)|
-|Seconda parte: "how to" - come usare la memoria FLash SPI in un progetto TouchGFX, come installare un EL in CubeIDE per programmare la memoria flash in un progetto TouchGFX|https://youtu.be/PO_2ZE1NQF0|
-|Terza parte: "how to" mappare una memoria flash SPI in un progetto CubeIDE||
-<br><br>
+||||
+|---|---|---|
+|Prima parte|"how to" - come usare la libreria, come creare un EL, come installare un EL in Cubeprogrammer|https://youtu.be/KlG2doCkREM|
+|<b>Seconda parte</br>|<br>"how to" - creare EL a basso consumo di RAM (specifico per questa repository)</b>|https://youtu.be/zv0w_vhTTTo|
+|Terza parte|"how to" - come usare la memoria FLash SPI in un progetto TouchGFX, come installare un EL in CubeIDE per programmare la memoria flash in un progetto TouchGFX|https://youtu.be/PO_2ZE1NQF0|
+|Quarta parte|"how to" - come mappare una memoria flash SPI in un progetto CubeIDE|https://youtu.be/K-7X8WKNu7c|
 
 ### Referimenti
 Il software, questa pagina ed i video sopra sono stati sviluppati sulla base di questa documentazione:
