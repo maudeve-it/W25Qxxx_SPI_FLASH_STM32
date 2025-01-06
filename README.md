@@ -137,7 +137,7 @@ Qui puoi trovare video relativi ai temi trattati in questa pagina
 
 ||||
 |---|---|---|
-|<b>Prima parte|"how to" - come usare la libreria (specifico per questa repository)</b>, come creare un EL, come installare un EL in Cubeprogrammer|https://youtu.be/KlG2doCkREM|
+|Prima parte|<b>"how to" - come usare la libreria (specifico per questa repository)</b>, come creare un EL, come installare un EL in Cubeprogrammer|https://youtu.be/KlG2doCkREM|
 |Seconda parte|"how to" - creare EL a basso consumo di RAM |https://youtu.be/zv0w_vhTTTo|
 |Terza parte|"how to" - come usare la memoria FLash SPI in un progetto TouchGFX, come installare un EL in CubeIDE per programmare la memoria flash in un progetto TouchGFX|https://youtu.be/PO_2ZE1NQF0|
 |Quarta parte|"how to" - come mappare una memoria flash SPI in un progetto CubeIDE|https://youtu.be/K-7X8WKNu7c|
