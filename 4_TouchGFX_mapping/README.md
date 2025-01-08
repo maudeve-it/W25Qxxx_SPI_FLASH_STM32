@@ -62,7 +62,12 @@ modify <i>/* USER CODE BEGIN Includes */</i> segment, adding the flash library i
 /* USER CODE END Includes */
 ...
 ```
+
 <br>
+
+</ul>
+</ul>
+
 <ul>
 <b>Edit the linker script</b> (<xxxxxxxx_FLASH.ld</b> file):<br>
 <ul>
