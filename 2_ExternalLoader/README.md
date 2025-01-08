@@ -134,7 +134,13 @@ once in the STM32CubeProgrammer program folder go subfolder:
 
 <li>
 copy here the External Loader created (.stldr file)<br><br>
-Now the External Loader is available to CubeIDE and can be selected in "Run/Debug Settings" in the project "Properties"<br>
+Now the External Loader is available to CubeIDE and can be selected in "Run/Debug Settings":<br>
+in CubeIDE, go to Project->Properties->Run/Debug Settings<br>
+select the launch configuration file and click "Edit"<br>
+go to "Debugger"<br>
+scroll to "External Loaders" and click "Add"<br>
+select, in the external loader list, the external loader to use.
+Click "OK" and "Apply" until you close all the "properties" windows open.
 </ul>
 <br>
 <br>
@@ -282,7 +288,14 @@ Raggiunta la cartella di STM32CubeIDE, andare nella sottocartella:
 <i>./plugins/xxxxxx.externaltools.cubeprogrammer.xxxxx/tools/bin/ExternalLoader</i><br>
 <li>
 Copiare qui il file .stldr creato<br><br>
-Ora l'External Loader è disponibile in CubeIDE e puo' essere selezionato in "Run/Debug Settings" in Project->Properties<br>
+Ora l'External Loader è disponibile in CubeIDE e puo' essere selezionato in "Run/Debug Settings":<br>
+in CubeIDE andare in: Project->Properties->Run/Debug Settings<br>
+selezionare il file di configurazione run e cliccare "Edit"<br>
+selezionare "Debugger"<br>
+sorrere la pagina fino a "External Loaders" e cliccare "Add"<br>
+Selezionare, Nella lista degli external loader, il modulo da usare.
+Cliccare "OK" and "Apply" chidendo la finestra "Properties" aperta.
+
 </ul>
 <br>
 
