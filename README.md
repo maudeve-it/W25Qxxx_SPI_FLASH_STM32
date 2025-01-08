@@ -3,7 +3,6 @@ _**<br>Below the English text you'll find the Italian version</i>**_
 <br>
 <br>
 <br>
-
 # A W25QXXX SPI FLASH memory library for STM32: <br>
 ## including support functions for External Loaders developing<br>
 ## and for the flash memory integration on TouchGFX projects<br>
@@ -24,7 +23,7 @@ So, you can use this software for 4 distinct purposes:
 
 <br>
 
-## GitHub Folders
+### GitHub Folders
 
 This guide is divided in 4 chapters following the above list.<br><br>
 
@@ -74,14 +73,15 @@ The  sofware you find on this page, the page content and above videos, were deve
 <br>
 
 
-## NOTES
+### Please note
+---
 > The software, schemes and PCB designs in this set of repositories are provided just for 
 > illustrative purposes, sharing the personal experience on this project. 
 > The software and design artifacts are provided as-is without any mantainence and without
 > warranty of any kind. There is no guarantee of fitness for any particular application, 
 > and no guarantee of completeness and correctness. 
 > By downloading and using these materials the user accepts all risks associated with the
-> run of the software and construction and use of the circuits and devices described.<br>
+> run of the software and construction and use of the circuits, boards and devices described.<br>
 
 ---
 
@@ -110,7 +110,7 @@ Puoi utilizzare quindi questo software per 4 scopi distinti:
 ---
 
 <br>
-## Folder GitHub
+### Folder GitHub
 
 Questa guida è suddivisa in 4 capitoli seguendo lo schema sopra.<br><br>
 - [gestire una memoria flash W25Q attraverso questa libreria](./1_Flash_library)
@@ -159,12 +159,15 @@ Il software, questa pagina ed i video sopra sono stati sviluppati sulla base di 
 <br>
 
 
+### Nota bene
+
 ---
+
 > Il software e gli schemi di progetto come i layout PCB in questa serie di repository 
-> sono messe a disposizione con puro intento illustrativo e di condivisione dell'esperienza fatta
-> Il software and gli elementi del progetto sono messi a disposizione "allo stato in cui sono"
+> sono messe a disposizione con puro intento illustrativo e di condivisione dell'esperienza fatta.
+> Il software e gli elementi del progetto sono messi a disposizione "allo stato in cui sono"
 > senza impegno di manutenzione e senza garanzie di alcun tipo. Piu' esplicitamente, non c'e' garanzia di 
-> adeguatezza a soddisfare specifiche esigenze, ne di completezza o correttezza di alcuna parte.
+> adeguatezza a soddisfare specifiche esigenze, ne' di completezza o correttezza di alcuna parte.
 > Scaricando ed utilizzando questo materiale l'utilizzatore accetta il rischio associato all'esecuzione del programma e alla
 > realizzazione ed all'utilizzo del circuito e dei componenti descritti in questo archivio.
 

@@ -101,13 +101,13 @@ save changes
 in <i><b>project->properties->C/C++ Build->settings->Tool Setting->MCU GCC Linker->General->linker script</b></i>:
 <ul>
 1	change the name of the .ld file into "EL_linker.ld". Parameter should become: ${workspace_loc:/${ProjName}/EL_linker.ld}<br>
-2	remove flag in <i><b></b>Discard Unused Sections</i>b></i><br>
+2	remove flag in <i><b>Discard Unused Sections</b></i><br>
 3	click "Apply and Close"<br>
 </ul>
 </ul>
 </ul>
 </ul>
-Now "Compile" progetto: If everithing is good <b>you'll find the file <i>project_name</i>.stldr into the project root folder</b><br><br> 
+Now "Compile" the project: If everithing is good <b>you'll find the file <i>project_name</i>.stldr into the project root folder</b><br><br> 
 THIS IS THE EXTERNAL LOADER<br><br>
 
 ## "How to" add External Loader to STM32CubeProgrammer
