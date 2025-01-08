@@ -124,9 +124,18 @@ Opening STM32CubeProgrammer program you can select the new External Loader to ac
 </ul>
 
 ## "How to" add External Loader to STM32CubeIDE
-<br>
-see inside page "How to setup a TouchGFX project mapping an external flash memory"
-and "How to setup an STM32CubeIDE project mapping an external flash memory"
+<ul>
+<li>
+Go to the STM32Cubeide program folder<br> 
+(right-click the program icon and choose "open file location")
+<li>
+once in the STM32CubeProgrammer program folder go subfolder:
+<i>./plugins/xxxxxx.externaltools.cubeprogrammer.xxxxx/tools/bin/ExternalLoader</i><br>
+
+<li>
+copy here the External Loader created (.stldr file)<br><br>
+Now the External Loader is available to CubeIDE and can be selected in "Run/Debug Settings" in the project "Properties"<br>
+</ul>
 <br>
 <br>
 <br>
@@ -264,10 +273,17 @@ Aprendo STM32CubeProgrammer si puo' selezionare il nuovo External Loader per acc
 
 
 ## "How to" add External Loader to STM32CubeIDE
-<br>
-Vedi la pagina ""How to: come aggiungere un  External Loader a STM32CubeProgrammer"
-e ""How to: configurare un progetto STM32CubeIDE mappando una memoria flash esterna"
-<br><i><b>
+<ul>
+<li>
+Andare nel folder del programma STM32CubeIDE<br> 
+(ad esempio click-destro del mouse sull'icona del programma e scegliere "Apri percorso file")
+<li>
+Raggiunta la cartella di STM32CubeIDE, andare nella sottocartella:
+<i>./plugins/xxxxxx.externaltools.cubeprogrammer.xxxxx/tools/bin/ExternalLoader</i><br>
+<li>
+Copiare qui il file .stldr creato<br><br>
+Ora l'External Loader è disponibile in CubeIDE e puo' essere selezionato in "Run/Debug Settings" in Project->Properties<br>
+</ul>
 <br>
 
 [Torna alla home page](../.)
