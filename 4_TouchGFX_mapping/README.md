@@ -64,16 +64,15 @@ modify <i>/* USER CODE BEGIN Includes */</i> segment, adding the flash library i
 ```
 
 <br>
-
 </ul>
 </ul>
-
+</ul>
 <ul>
 <b>Edit the linker script</b> (<xxxxxxxx_FLASH.ld</b> file):<br>
 <ul>
-<li>open the linker script file and open also Program_linker_include.txt<br>
-<li>from this last file copy the row indicating flash size and address (starting with "SPI_FLASH...")<br> 
-<li>in the linker script, in the "<b>Memories definition</b>" area, paste the copied row, obtaining something like this:<br>  
+Open the linker script file and open also Program_linker_include.txt.<br>
+From this last file copy the row indicating flash size and address (starting with "SPI_FLASH...").<br> 
+In the linker script, in the "<b>Memories definition</b>" area, paste the copied row, obtaining something like this:.<br>  
 
 ```sh
 (xxxxxxFLASH.ld)
@@ -89,12 +88,11 @@ MEMORY
 ```
 <br>
 	
-<li><b>Do not modify</b> RAM configuration,FLASH one or anyother memory area defined and handled by CubeMX<br>
-<li>Change "LENGTH" field <b>of SPI_FLASH</b> indicating the size of flash memory you are using<br>
-<li>"ORIGIN" field of SPI_FLASH <b>must be the same value</b> registred in CubeMX TouchGFX configuration<br> 
+<b>Do not modify</b> RAM configuration,FLASH one or anyother memory area defined and handled by CubeMX<br>
+Change "LENGTH" field <b>of SPI_FLASH</b> indicating the size of flash memory you are using<br>
+"ORIGIN" field of SPI_FLASH <b>must be the same value</b> registred in CubeMX TouchGFX configuration<br> 
 
-</ul>
-from Program_linker_include.txt file copy rows of the <b>ExtFlashSection</b><br>
+From Program_linker_include.txt file copy rows of the <b>ExtFlashSection</b><br>
 
 ```sh
 (Program_linker_include.txt)
@@ -108,7 +106,6 @@ from Program_linker_include.txt file copy rows of the <b>ExtFlashSection</b><br>
 ...
 ```
 
-<ul>
 and paste them at the beginning of the SECTIONS area of the linker script. This way:<br>
 
 ```sh
@@ -126,10 +123,8 @@ SECTIONS
   } >SPI_FLASH
 ...
 ```
-<ul>
-this will allow to move selected images to the external flash memory.
-
-if you want/need to move also fonts to the external memory copy also the  <b>FontFlashSection</b> from Program_linker_include.txt and paste into linker file this way:
+This will allow to move selected images to the external flash memory.<br>
+If you want/need to move also fonts to the external memory copy also the  <b>FontFlashSection</b> from Program_linker_include.txt and paste into linker file this way:
 
 ```sh
 (xxxxxxFLASH.ld)
@@ -154,6 +149,8 @@ SECTIONS
 
 ...
 ```
+</ul>
+</ul>
 <br>
 
 <li><b>on TouchGFX Designer</b>:<br>
@@ -280,7 +277,9 @@ modificare il segmento <i>/* USER CODE BEGIN Includes */</i>, aggiungendo la "in
 ...
 ```
 <br>
-<ul>
+</ul>
+</ul>
+</ul>
 <b>Editare lo script per il linker</b> (file <xxxxxxxx_FLASH.ld</b>):<br>
 <ul>
 <li>aprire lo script per il linker e aprire anche Program_linker_include.txt<br>
@@ -301,12 +300,10 @@ MEMORY
 ```
 <br>
 	
-<li><b>Non modificare</b> la configurazione RAM, FLASH, o qualunque altra riga si trovi qui: definita e gestita da CubeMX<br>
-<li>Modificare il campo "LENGTH" <b>di SPI_FLASH</b> indicando la dimensione della memoria flash in uso<br>
-<li>Il campo "ORIGIN" di SPI_FLASH <b>deve avere lo stesso valore</b> registrato nella configurazione TouchGFX in CubeMX<br> 
-
-</ul>
-dal file Program_linker_include.txt copia le righe relative a <b>ExtFlashSection</b><br>
+<b>Non modificare</b> la configurazione RAM, FLASH, o qualunque altra riga si trovi qui: definita e gestita da CubeMX.<br>
+Modificare il campo "LENGTH" <b>di SPI_FLASH</b> indicando la dimensione della memoria flash in uso.<br>
+Il campo "ORIGIN" di SPI_FLASH <b>deve avere lo stesso valore</b> registrato nella configurazione TouchGFX in CubeMX.<br> 
+Dal file Program_linker_include.txt copia le righe relative a <b>ExtFlashSection</b>.<br>
 
 ```sh
 (Program_linker_include.txt)
@@ -320,7 +317,6 @@ dal file Program_linker_include.txt copia le righe relative a <b>ExtFlashSection
 ...
 ```
 
-<ul>
 ed incollale all'inizio dell'area SECTIONS dello script linker. In questo modo:<br>
 
 ```sh
@@ -418,7 +414,7 @@ in CubeIDE andare in: Project->Properties->Run/Debug Settings<br>
 cliccare "Edit"<br>
 selezionare "Debugger"<br>
 sorrere la pagina fino a "External Loaders" e cliccare "Add"<br>
-Selezionare, Nella lista degli external loader, il modulo da usare.
+Selezionare, Nella lista degli external loader, il modulo da usare.<br>
 Cliccare "OK" and "Apply" chidendo la finestra "Properties" aperta.
 	
 </ul>	
